@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20201.20.0219.0753                               -->
-<workbook source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <MapboxVectorStylesAndLayers />
     <_.fcp.MarkAnimation.true...MarkAnimation />
@@ -9,6 +9,7 @@
     <SortTagCleanup />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
+  <repository-location id='salesinStates' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -18,7 +19,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Global+Superstore-William_Ostler (3)' name='excel-direct.06r28661yie8vj14ih3031ge6sp8'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/willo/Downloads/Global+Superstore-William_Ostler (3).xls' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/willo/Downloads/Global+Superstore-William_Ostler (3).xls' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.06r28661yie8vj14ih3031ge6sp8' name='Orders' table='[Orders$]' type='table'>
@@ -436,11 +437,8 @@
       <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
       <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
       <extract count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/willo/OneDrive - BYU/Documents/IS 201/Orders (Global+Superstore-William_Ostler (3)).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/20/2020 10:23:00 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/willo/OneDrive - BYU/Documents/IS 201/Orders (Global+Superstore-William_Ostler (3)).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <refresh increment-key='' incremental-updates='false'>
-            <refresh-event add-from-file-path='Orders (Global+Superstore-William_Ostler (3))' increment-value='%null%' refresh-type='create' rows-inserted='51290' timestamp-start='2020-04-20 22:23:00.071' />
-          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>Row ID</remote-name>
@@ -1010,7 +1008,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1038,7 +1036,7 @@
       </cards>
       <simple-id uuid='{6AEBFA94-6890-4C04-8423-1C91EED8F233}' />
     </window>
-    <window class='worksheet' name='Sheet 2'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
       <cards>
         <edge name='left'>
           <strip size='160'>
