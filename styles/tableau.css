@@ -16,7 +16,7 @@
     float: right;
     display: block;
     color: #080303;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration-color: white;
   }
@@ -25,4 +25,5 @@
       font-weight: bold;
       font-size: 24px;
       color: white;
+      text-align: right;
   }
