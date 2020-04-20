@@ -5,6 +5,16 @@
     text-decoration-color: white;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity
+}
+
 .topnav a {
     float: right;
     display: block;
