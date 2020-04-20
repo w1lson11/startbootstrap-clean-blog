@@ -662,7 +662,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -690,7 +690,7 @@
       </cards>
       <simple-id uuid='{6AEBFA94-6890-4C04-8423-1C91EED8F233}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 2'>
+    <window class='worksheet' name='Sheet 2'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -711,7 +711,7 @@
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='0'>
+          <strip size='160'>
             <card pane-specification-id='0' param='[federated.165gkim1s2uxzz14hzsze11jw9ad].[none:State:nk]' type='color' />
           </strip>
         </edge>
