@@ -51,8 +51,4 @@ li a {
     padding: 5px;
   }
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+ 
