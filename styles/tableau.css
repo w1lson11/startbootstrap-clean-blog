@@ -44,3 +44,9 @@ li a {
       color: white;
       text-align: right;
   }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
