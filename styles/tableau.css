@@ -12,6 +12,23 @@
     text-decoration-color: white;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+}
+
 .topnav a {
     float: right;
     display: block;
